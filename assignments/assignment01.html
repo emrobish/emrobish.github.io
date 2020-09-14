@@ -88,6 +88,16 @@ tr:nth-child(even) {
 .browser {
   background: white;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
 </style>
 </head> 
 <body>
@@ -111,12 +121,15 @@ tr:nth-child(even) {
         <p>Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Urna porttitor rhoncus dolor purus non enim praesent elementum. Integer quis auctor elit sed vulputate mi sit amet. Tellus orci ac auctor augue mauris augue neque. Mauris vitae ultricies leo integer malesuada nunc vel. Dictum varius duis at consectetur lorem donec. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Sit amet porttitor eget dolor morbi non arcu. A pellentesque sit amet porttitor eget dolor morbi non. Varius vel pharetra vel turpis nunc eget. Pulvinar etiam non quam lacus. Diam donec adipiscing tristique risus nec. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Commodo odio aenean sed adipiscing diam donec. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Amet risus nullam eget felis eget nunc. Sed vulputate odio ut enim blandit volutpat maecenas volutpat.
         Nisi porta lorem mollis aliquam ut porttitor leo. Ac orci phasellus egestas tellus. Aliquet bibendum enim facilisis gravida neque convallis. Condimentum vitae sapien pellentesque habitant morbi tristique. Enim praesent elementum facilisis leo vel. Est ultricies integer quis auctor elit sed. Leo a diam sollicitudin tempor. Dolor magna eget est lorem ipsum. Sed pulvinar proin gravida hendrerit. Porttitor eget dolor morbi non arcu. Urna duis convallis convallis tellus id interdum velit. Lectus nulla at volutpat diam ut.</p>
       </section>
-   
-      <section>
-        <h2>Header2</h2> 
-        <p>Magna fringilla urna porttitor rhoncus dolor. Sed egestas egestas fringilla phasellus faucibus. Bibendum arcu vitae elementum curabitur. Dictumst quisque sagittis purus sit amet volutpat consequat. Elementum eu facilisis sed odio. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Pharetra et ultrices neque ornare. Mi sit amet mauris commodo quis imperdiet massa. Nunc mattis enim ut tellus elementum sagittis. Ut lectus arcu bibendum at. Fringilla ut morbi tincidunt augue. Et ultrices neque ornare aenean euismod. Rhoncus dolor purus non enim. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Velit euismod in pellentesque massa placerat duis ultricies lacus. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Ornare quam viverra orci sagittis eu volutpat odio. Arcu non odio euismod lacinia.
-
-        Egestas integer eget aliquet nibh praesent tristique magna. Amet commodo nulla facilisi nullam vehicula ipsum a. Id diam vel quam elementum. Ultrices vitae auctor eu augue ut. Non enim praesent elementum facilisis leo vel. Orci a scelerisque purus semper eget duis at tellus. Nisl pretium fusce id velit. Et malesuada fames ac turpis egestas maecenas. Facilisis gravida neque convallis a cras semper. Tempus egestas sed sed risus pretium. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.</p>
+      
+      <section class ="row"> 
+        <h2>Header2,Column1</h2> 
+        <p>Magna fringilla urna porttitor rhoncus dolor. Sed egestas egestas fringilla phasellus faucibus. Bibendum arcu vitae elementum curabitur. Dictumst quisque sagittis purus sit amet volutpat consequat. Elementum eu facilisis sed odio. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Pharetra et ultrices neque ornare. Mi sit amet mauris commodo quis imperdiet massa. Nunc mattis enim ut tellus elementum sagittis. Ut lectus arcu bibendum at. Fringilla ut morbi tincidunt augue. Et ultrices neque ornare aenean euismod. Rhoncus dolor purus non enim. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Velit euismod in pellentesque massa placerat duis ultricies lacus. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Ornare quam viverra orci sagittis eu volutpat odio. Arcu non odio euismod lacinia.</p>
+      </section>
+      
+      <section class="column"
+        <h2>Header2,Column2<h2>
+        <p>Egestas integer eget aliquet nibh praesent tristique magna. Amet commodo nulla facilisi nullam vehicula ipsum a. Id diam vel quam elementum. Ultrices vitae auctor eu augue ut. Non enim praesent elementum facilisis leo vel. Orci a scelerisque purus semper eget duis at tellus. Nisl pretium fusce id velit. Et malesuada fames ac turpis egestas maecenas. Facilisis gravida neque convallis a cras semper. Tempus egestas sed sed risus pretium. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.</p>
       </section>
       
       <section>
