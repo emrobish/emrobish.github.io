@@ -1,37 +1,4 @@
 /* --- put your css here --- */ 
-
-/* external css is imported into html using the <link> tag in the <head> section, as shown below.
-
-  <head>
-    <link rel="stylesheet" href="assignment02.css">
-  </head>
-
-*/
-
-
-/* --- pre-existing css --- */
-tr:nth-child(even) {
-  background-color: gray;
-}
-tr:nth-child(odd) {
-  background-color: white;
-}
-th {
-  color: white;
-  background-color: black;
-}
-td:hover {
-  background-color: yellow;
-}
-td {
-  text-align: right;
-}
-input[type="text"]:focus {
-  background-color: pink;
-}
-
-
-/*---start of new css ---*/
 body {
   background: SkyBlue;
 }
@@ -72,11 +39,12 @@ span{
   position: relative;
   right: 5px;
 }
-div.orange {
+#positionMe {
+  position: relative;
   background-color: orange;
 }
 .bird{
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 250px;
 }
@@ -87,4 +55,26 @@ nav {
   opacity: .9;
   padding: 5px;
   font-size: 20px;
+}
+
+
+/* --- pre-existing css --- */
+tr:nth-child(even) {
+  background-color: gray;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+th {
+  color: white;
+  background-color: black;
+}
+td:hover {
+  background-color: yellow;
+}
+td {
+  text-align: right;
+}
+input[type="text"]:focus {
+  background-color: pink;
 }
