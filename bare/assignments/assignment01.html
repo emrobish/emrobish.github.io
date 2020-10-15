@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <title>Minimial HTML</title> 
+  <style> 
+  <!--for table and newspaper-->
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
 
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color:#d4b4db;
+}
+.browser {
+  background: white;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style> 
+ </head> 
+ <body>
+  <!--implements code tag-6-->
+  <p>Hello, world</p> 
+  <p>The HTML <code>button</code> tag defines a clickable button.</p> 
+  <hr /> 
+  <!--form to collect user input for first name and last name-7-->
+  <form> 
+   <label for="fname">First name:</label>
+   <br /> 
+   <input type="text" id="fname" name="fname" />
+   <br /> 
+   <label for="lname">Last name:</label>
+   <br /> 
+   <input type="text" id="lname" name="lname" /> 
+  </form> 
+  <hr /> 
+  <!--table about online streaming-8--> 
+  <h2>Streaming Services</h2> 
+  <table> 
+   <tbody>
+    <tr> 
+     <th>Streaming Providor</th> 
+     <th>Price</th> 
+     <th>Subscribers</th> 
+    </tr> 
+    <tr> 
+     <td>Netflix</td> 
+     <td>$8.99/month</td> 
+     <td>182.8 million</td> 
+    </tr> 
+    <tr> 
+     <td>Hulu</td> 
+     <td>$5.99/month</td> 
+     <td>30 million</td> 
+    </tr> 
+    <tr> 
+     <td>Amazon Prime Video</td> 
+     <td>$8.99/month</td> 
+     <td>150 million</td> 
+    </tr> 
+    <tr> 
+     <td>Disney+</td> 
+     <td>$6.99/month</td> 
+     <td>50 million</td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <hr /> 
+  <!--semantic HTML Newspaper-9--> 
+  <article class="all-browsers"> 
+   <header> 
+    <h1>Site Title</h1> 
+   </header> 
+  </article> 
+  <main> 
+   <article class="browser"> 
+    <h1 style="text-align: center; font-weight: bold">Header1</h1> 
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At tellus at urna condimentum mattis pellentesque id. Massa placerat duis ultricies lacus sed turpis tincidunt id. Nibh praesent tristique magna sit amet purus gravida quis blandit. Enim sit amet venenatis urna cursus eget nunc scelerisque. Commodo viverra maecenas accumsan lacus vel facilisis volutpat. Sagittis orci a scelerisque purus semper eget duis at. Scelerisque viverra mauris in aliquam sem fringilla. A diam sollicitudin tempor id eu. Adipiscing elit ut aliquam purus. Nunc mattis enim ut tellus elementum sagittis. Mollis aliquam ut porttitor leo.</p> 
+    <section> 
+     <h2>Header2</h2> 
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRApnoiL3B7WUWhGVkuBKB9Bo-YjS18d9T2ZQ&amp;usqp=CAU" alt="placeholder image" width=100% /> 
+     <p>Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Urna porttitor rhoncus dolor purus non enim praesent elementum. Integer quis auctor elit sed vulputate mi sit amet. Tellus orci ac auctor augue mauris augue neque. Mauris vitae ultricies leo integer malesuada nunc vel. Dictum varius duis at consectetur lorem donec. Velit laoreet id donec ultrices tincidunt arcu non sodales neque. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Sit amet porttitor eget dolor morbi non arcu. A pellentesque sit amet porttitor eget dolor morbi non. Varius vel pharetra vel turpis nunc eget. Pulvinar etiam non quam lacus. Diam donec adipiscing tristique risus nec. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Commodo odio aenean sed adipiscing diam donec. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Placerat vestibulum lectus mauris ultrices eros in cursus turpis massa. Amet risus nullam eget felis eget nunc. Sed vulputate odio ut enim blandit volutpat maecenas volutpat. Nisi porta lorem mollis aliquam ut porttitor leo. Ac orci phasellus egestas tellus. Aliquet bibendum enim facilisis gravida neque convallis. Condimentum vitae sapien pellentesque habitant morbi tristique. Enim praesent elementum facilisis leo vel. Est ultricies integer quis auctor elit sed. Leo a diam sollicitudin tempor. Dolor magna eget est lorem ipsum. Sed pulvinar proin gravida hendrerit. Porttitor eget dolor morbi non arcu. Urna duis convallis convallis tellus id interdum velit. Lectus nulla at volutpat diam ut.</p> 
+    </section> 
+    <hr /> 
+    <div class="row"> 
+     <section class="column"> 
+      <h2>Column1</h2> 
+      <p>Magna fringilla urna porttitor rhoncus dolor. Sed egestas egestas fringilla phasellus faucibus. Bibendum arcu vitae elementum curabitur. Dictumst quisque sagittis purus sit amet volutpat consequat. Elementum eu facilisis sed odio. Suspendisse faucibus interdum posuere lorem ipsum dolor sit amet consectetur. Pharetra et ultrices neque ornare. Mi sit amet mauris commodo quis imperdiet massa. Nunc mattis enim ut tellus elementum sagittis. Ut lectus arcu bibendum at. Fringilla ut morbi tincidunt augue. Et ultrices neque ornare aenean euismod. Rhoncus dolor purus non enim. Pretium quam vulputate dignissim suspendisse in est ante in nibh. Cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Velit euismod in pellentesque massa placerat duis ultricies lacus. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Ornare quam viverra orci sagittis eu volutpat odio. Arcu non odio euismod lacinia.</p> 
+     </section> 
+     <section class="column"> 
+      <h2>Column2</h2> 
+      <p> Egestas integer eget aliquet nibh praesent tristique magna. Amet commodo nulla facilisi nullam vehicula ipsum a. Id diam vel quam elementum. Ultrices vitae auctor eu augue ut. Non enim praesent elementum facilisis leo vel. Orci a scelerisque purus semper eget duis at tellus. Nisl pretium fusce id velit. Et malesuada fames ac turpis egestas maecenas. Facilisis gravida neque convallis a cras semper. Tempus egestas sed sed risus pretium. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl.</p> 
+     </section> 
+    </div> 
+    <hr /> 
+    <section> 
+     <h2>Header2</h2> 
+     <p>Turpis nunc eget lorem dolor. Diam volutpat commodo sed egestas egestas fringilla. Viverra maecenas accumsan lacus vel facilisis. Sit amet nisl purus in mollis. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Turpis tincidunt id aliquet risus feugiat. Felis imperdiet proin fermentum leo vel orci. Purus gravida quis blandit turpis cursus in hac. Augue ut lectus arcu bibendum at. Egestas congue quisque egestas diam in arcu cursus euismod quis. Cursus in hac habitasse platea dictumst quisque sagittis purus. Ut pharetra sit amet aliquam id. Pellentesque habitant morbi tristique senectus et. Amet mauris commodo quis imperdiet massa. Congue nisi vitae suscipit tellus mauris a diam. Faucibus pulvinar elementum integer enim neque. Mauris commodo quis imperdiet massa tincidunt. Ut placerat orci nulla pellentesque dignissim enim sit amet. Elit pellentesque habitant morbi tristique senectus et netus. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique et egestas quis ipsum. Nunc scelerisque viverra mauris in aliquam sem fringilla. Feugiat scelerisque varius morbi enim. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet. Ut pharetra sit amet aliquam. Orci a scelerisque purus semper. Rutrum quisque non tellus orci ac auctor augue mauris. Feugiat pretium nibh ipsum consequat nisl vel. Id consectetur purus ut faucibus pulvinar elementum integer enim. Ultrices sagittis orci a scelerisque purus semper eget duis at. Commodo ullamcorper a lacus vestibulum sed arcu. Odio pellentesque diam volutpat commodo. Eget mauris pharetra et ultrices neque ornare aenean. Ac tortor dignissim convallis aenean. Vitae justo eget magna fermentum.</p> 
+     <!--I left the error I had for the image width=100% (it said it expected a number and not a %) because this makes it fit the page if its half screen or full screen ect.-->
+     <img src="https://via.placeholder.com/350x150" alt="placeholder image" width=100% /> 
+     <p>Mi in nulla posuere sollicitudin aliquam. Quam pellentesque nec nam aliquam sem et tortor consequat. Mattis molestie a iaculis at erat pellentesque adipiscing commodo. Malesuada bibendum arcu vitae elementum curabitur vitae nunc sed velit. Semper auctor neque vitae tempus quam pellentesque. Adipiscing elit duis tristique sollicitudin nibh sit. Nullam non nisi est sit amet facilisis magna. Amet est placerat in egestas erat imperdiet sed euismod. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar.</p> 
+    </section> 
+   </article> 
+  </main> 
+  <hr /> 
+  <footer> 
+   <h2>Footer</h2> 
+   <p>Eget aliquet nibh praesent tristique magna sit amet purus. Eu sem integer vitae justo eget. Congue quisque egestas diam in arcu. Mattis nunc sed blandit libero. Dictum sit amet justo donec enim diam vulputate. Senectus et netus et malesuada fames ac turpis egestas integer. Pellentesque eu tincidunt tortor aliquam nulla. Aliquet risus feugiat in ante metus dictum at tempor. </p> 
+  </footer>  
+  
+  <!--image and placeholder image-5 -->
+  <h2>I wasn't sure where you wanted the 2 images for number 5 so I decided to also add them in here</h2>
+  <img src="https://images.squarespace-cdn.com/content/v1/5a5906400abd0406785519dd/1552662149940-G6MMFW3JC2J61UBPROJ5/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/baelen.jpg?format=1500w" alt="image of whale tail and divers"/>
+  <img src="https://via.placeholder.com/200" alt="placeholder image"/>
+  
+ </body>
+</html>
