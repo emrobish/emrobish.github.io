@@ -1,0 +1,80 @@
+/* --- put your css here --- */ 
+body {
+  background: SkyBlue;
+}
+.igottabeme{
+font-family: Ariel, Helvetica, sans-serif;
+}
+.classy{
+  margin-left: 10px;
+}
+div{
+  margin-bottom: 50px;
+}
+span{
+  width: 100px;
+  height: 50px;
+  padding: 5px 20px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 5px;
+  background-color: yellow;
+}
+.a{
+  display: inline;
+}
+.b{
+  display: block;
+}
+.c{
+  display: inline-block;
+}
+img[alt*="cat icon"] {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+img[alt*="dog icon"] {
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+}
+#positionMe {
+  position: relative;
+  background-color: orange;
+}
+img[alt*="bird icon"]{
+  position: absolute;
+  top: 50px;
+  left: 250px;
+}
+nav {
+  position: fixed;
+  top: 0;
+  background-color: limegreen;
+  opacity: .9;
+  padding: 5px;
+  font-size: 20px;
+}
+
+
+/* --- pre-existing css --- */
+tr:nth-child(even) {
+  background-color: gray;
+}
+tr:nth-child(odd) {
+  background-color: white;
+}
+th {
+  color: white;
+  background-color: black;
+}
+td:hover {
+  background-color: yellow;
+}
+td {
+  text-align: right;
+}
+input[type="text"]:focus {
+  background-color: pink;
+}
