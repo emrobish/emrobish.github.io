@@ -1,0 +1,17 @@
+/* center-align table columns */
+th, td {text-align: center;} 
+
+tr:nth-table(even) {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+table {
+		border-collapse: collapse;
+		width: 300px;
+}
+.btn-success {background-color: #9ACD32;} 
+.btn-danger {background-color: #FA8072;} 
+.btn-clear {background-color: white;}
+
