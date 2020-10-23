@@ -51,7 +51,28 @@
 	let newClubDistances;
 	
 	function addClub() {
-        // your code here
+	 // your code here //PROBLEM 4
+	//assign the input to x and then change that to html?
+	let i = document.getElementById("clubName").value;
+ 		document.getElementById("clubName").innerHTML = i;
+		// columns for table as reference - 0: sortPosition, 1: clubAbbrev, 2: clubName, 3: avgDist, 4: minDist, 5: maxDist, 6: numOfShots, 7: loft/degrees, 8: typical/men, 9: typical/women
+		//make the new club = this preset input with the name input = x and the clubAbbrev = "madeClub"?
+		clubs[clubs.length] = [1699, "NewClub", i,   0, 0, 0, 0, 60.0,   3,   3];  //or 999?
+		//have to save it to local storage
+		let str = JSON.stringify(clubs);
+		localStorage.setItem("clubs", str);
+		//PROBLEM 5
+		if(clubs.length > 14) {
+		alert("Warning: you are only allowed to carry 14 clubs in your golf bag in match play competition.");
+		}	
+
+       // code we did in class
+		///clubs[clubs.length] = clubs[clubs.length-1] //makes the new club the same as the one above it
+			//need to make the new club = the input in the add page?
+		
+		//have to save it to local storage
+		///let str = JSON.stringify(clubs); //stringify the club array
+		///localStorage.setItem("clubs", str); // sets club array as a string in local storage
 	}
 	
 	// navigate to club distance LIST screen
