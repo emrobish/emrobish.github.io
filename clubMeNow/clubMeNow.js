@@ -30,9 +30,12 @@ clubDistanceEntry.html
 // initialize "clubs" array
 function loadClubDistances() {
 	let clubs;
+	///let undoClubs;
+	///dont add the undoClubs to the else- because thats where the new array goes?
 	// if "clubs" array already exists, load it from local storage
 	if (localStorage.getItem("clubs")) {
 		clubs = JSON.parse(localStorage.getItem("clubs"));
+		///undoClubs = JSON.parse(localStorage.getItem("clubs"));
 	}
 	// otherwise create new "clubs" array, using resetAllClubs()
 	else {
@@ -92,6 +95,7 @@ function displayClubDistanceEntryForm(c) {
 // replace the current "clubs" array with the previous one
 function undoLastShot() {
 	//could do like loadPreviousLocalClubDistances
+	///clubs = undoClubs;
 }
 
 // create a new (default) "clubs" array
@@ -190,6 +194,9 @@ function updateStats(shotDistance=0) {
 	if(parseInt(shotDistance) > 0) {
 		// save current clubs array for "Undo" functionality
 		let str = JSON.stringify(clubs);
+		///need another club array to hold the older verion
+		///let undoClubs = localStorage.setItem("clubsUndo", str);
+		//then delete line below?
 		localStorage.setItem("clubsUndo", str);
 		// update average
 		currentAverage = clubs[clubRow][3];
