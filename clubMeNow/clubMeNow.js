@@ -132,6 +132,12 @@ function displayAbout() {
 	//alert("version 1.0.0"); //shows alert when about is clicked
 	
 }
+// navigate from about screen to display screen
+function displayBack() {
+	window.location.href = "clubDistanceList.html"; //when back button is clicked it takes the user back to the "clubDistanceList.html"
+}
+
+
 
 // navigate to "Penalty Info" screen
 function displayPenaltyInfo() {
