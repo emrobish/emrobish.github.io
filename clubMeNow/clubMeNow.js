@@ -127,9 +127,9 @@ function resetAllClubDistances() {
 
 // navigate to "About" screen
 function displayAbout() {
-	// your code here
-	// window.location.href = "clubAbout.html"; //when about it clicked it would take it to another file
-	alert("version 1.0.0"); // Problem 2 shows alert when about it clicked
+	// your code here-PROBLEM 2
+	window.location.href = "clubAbout.html"; //when about it clicked it would take it to another file
+	//alert("version 1.0.0"); //shows alert when about is clicked
 	
 }
 
