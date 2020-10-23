@@ -3,7 +3,7 @@ Functions in this app:
 
 clubDistanceList.html
 
-  loadClubDistances()
+  loadClubDistances(), calls resetAllClubDistances()
   appendTableRows()
   displayClubEntry()
   displayClubDistanceEntryForm(c)
@@ -91,7 +91,7 @@ function displayClubDistanceEntryForm(c) {
 
 // replace the current "clubs" array with the previous one
 function undoLastShot() {
-        // your code here !
+	//could do like loadPreviousLocalClubDistances
 }
 
 // create a new (default) "clubs" array
